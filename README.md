@@ -30,7 +30,16 @@ report bugs to: codemarauder [at] gmail [dot] com
 
 2. Dependencies
 ===============
- 
-cpan install Mail::IMAPClient  
+
+Centos:
+yum install cpan
+yum -y install perl perl-Net-SSLeay openssl perl-IO-Tty 
+yum install openssl-devel perl perl-Net-SSLeay perl-Crypt-SSLeay
+yum isntall perl-Mail-IMAPClient
+
+Ubuntu: 
 apt-get install libauthen-simple-pam-perl  
+
+All:
+cpan install Mail::IMAPClient  
 cpan Try::Tiny 
