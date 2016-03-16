@@ -40,7 +40,7 @@ Ubuntu:
 apt-get install libauthen-simple-pam-perl 
 
 All: 
- export PERL_MM_USE_DEFAULT=1
+ export PERL_MM_USE_DEFAULT=1  
  cpan  Mail::IMAPClient  
  Authen::Simple::Adapter 
  cpan Try::Tiny 
