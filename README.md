@@ -47,5 +47,5 @@ apt-get install libauthen-simple-pam-perl
 All:
 
 cpan  Mail::IMAPClient  
-
+Authen::Simple::Adapter
 cpan Try::Tiny 
