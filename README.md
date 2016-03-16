@@ -47,5 +47,6 @@ All:
   
   export PERL_MM_USE_DEFAULT=1  
   cpan  Mail::IMAPClient  
-  Authen::Simple::Adapter  
+  cpan Authen::Simple::Adapter  
   cpan Try::Tiny 
+  cpan IO::Socket::SSL
