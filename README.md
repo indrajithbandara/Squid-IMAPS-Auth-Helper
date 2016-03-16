@@ -32,3 +32,4 @@ report bugs to: codemarauder [at] gmail [dot] com
 ===============
  
 cpan install Mail::IMAPClient
+apt-get install libauthen-simple-pam-perl
