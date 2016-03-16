@@ -32,15 +32,20 @@ report bugs to: codemarauder [at] gmail [dot] com
 ===============
 
 Centos:
+
 yum -y install cpan perl perl-Net-SSLeay openssl perl-IO-Tty openssl-devel perl perl-Net-SSLeay perl-Crypt-SSLeay
 
 yum -y install perl-Mail-IMAPClient  "perl(Term::ReadKey)"  "perl(Authen::NTLM)"  perl-Data-Uniqid  perl-File-Copy-Recursive 
+
 yum -y install perl-IO-Tee perl-Unicode-String  perl-YAML perl-CPAN-Meta-YAML perl-YAML-Perl
 
 
 Ubuntu: 
+
 apt-get install libauthen-simple-pam-perl  
 
 All:
-cpan install Mail::IMAPClient  
+
+cpan  Mail::IMAPClient  
+
 cpan Try::Tiny 
