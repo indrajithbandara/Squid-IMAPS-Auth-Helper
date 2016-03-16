@@ -27,3 +27,8 @@ with some random gmail account.
 
 This is the first attempt at creating any helper for squid.
 report bugs to: codemarauder [at] gmail [dot] com
+
+2. Dependencies
+===============
+ 
+cpan install Mail::IMAPClient
