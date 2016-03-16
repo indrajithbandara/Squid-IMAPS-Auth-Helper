@@ -50,4 +50,5 @@ All:
   cpan Authen::Simple::Adapter  
   cpan Try::Tiny 
   cpan IO::Socket::SSL 
+  Net::IMAP::Simple::SSL  
   cpan Authen::Simple::IMAP 
