@@ -31,6 +31,6 @@ report bugs to: codemarauder [at] gmail [dot] com
 2. Dependencies
 ===============
  
-cpan install Mail::IMAPClient
-apt-get install libauthen-simple-pam-perl
-cpan Try::Tiny
+cpan install Mail::IMAPClient 
+apt-get install libauthen-simple-pam-perl 
+cpan Try::Tiny 
